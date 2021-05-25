@@ -23,12 +23,6 @@ h1{
   margin-bottom: 30px;
 }
 
-.App {
-  text-align: center;
-  /* background-color: #ece9e6; */
-  min-width: 30rem;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -3,7 +3,7 @@ export default function About() {
   return (
     <div className={`${classes.about} p-5`} >
       <main style={{ maxWidth: '50rem' }} id="about" role="main" className="main inner cover h-100 p-3 mx-auto text-center">
-        <h1 className="cover-heading">ABOUT</h1>
+        <h1 className="mb-4">ABOUT</h1>
         <div style={{ textAlign: 'left', fontSize: '1rem' }} className="lead">
           <h6 style={{ fontSize: '1.1rem' }}>Hi, my name is Mostafa Farag. I'm a React Developer and i have some experience in :</h6>
           <ul style={{ listStyleType: 'circle' }}>
@@ -30,9 +30,9 @@ export default function About() {
           I'm a graduate of Ain shams computer engineering, past 3-months DevOps intern at ITI and
            i have a certificate of React Developer Nanodegree from udacity.
         </div>
-        <p className="lead">
+        <div className="mt-4">
           <a href="https://drive.google.com/file/d/1dEG8OFDMHr0dtxm5CnKTxo-pUaOyGWGn/view" target="_blank" className="btn btn-lg btn-info">View CV</a>
-        </p>
+        </div>
       </main>
     </div>
   )

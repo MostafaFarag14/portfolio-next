@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {imgPath} from '../projectsUrls'
-import './contact.module.css'
+import { imgPath } from '../../projectsUrls'
+import classes from './contact.module.css'
 
 const contacts = [
   {
@@ -26,37 +26,30 @@ const contacts = [
 
 ]
 
-export default class Contact extends Component {
-  render() {
-    return (
-
-      <div id='contact' className="contacts text-light">
-        <h1 className="mb-5">CONTACT</h1>
-        <ul className="justify-content-center d-flex flex-wrap mb-0">
-          {contacts.map((contact, index) => {
-            return (
-              <div key={index} className="">
-                <li  className="px-5 d-flex">
-                  {
-                    contact.url === "#" ? 
-                      <img className="mx-5 d-flex" src={contact.logo} height="40" width="40" ></img>
-                      // <i class="bi bi-phone" style={{fontSize: 24}}></i>
+export default function Contact() {
+  return (
+    <div id='contact' className={`${classes.contacts} text-light`}>
+      <h1 className="mb-5">CONTACT</h1>
+      <ul className="justify-content-center d-flex flex-wrap mb-0">
+        {contacts.map((contact, index) => {
+          return (
+            <div key={index} className="">
+              <li className="px-5 d-flex">
+                {
+                  contact.url === "#" ?
+                    <img className="mx-5 d-flex" src={contact.logo} height="40" width="40" ></img>
+                    // <i class="bi bi-phone" style={{fontSize: 24}}></i>
                     :
                     <a className="mx-5" href={contact.url} target="_blank">
-                    <img className="contact d-flex" src={contact.logo} height="40" width="40" ></img>
-                  </a>
-                  }
-
-                </li>
-                <div className="p-2">{contact.text}</div>
-              </div>
-            )
-          })}
-        </ul>
-      </div>
-
-
-
-    )
-  }
+                      <img className={`${classes.contact} d-flex`} src={contact.logo} height="40" width="40" ></img>
+                    </a>
+                }
+              </li>
+              <div className="p-2">{contact.text}</div>
+            </div>
+          )
+        })}
+      </ul>
+    </div>
+  )
 }

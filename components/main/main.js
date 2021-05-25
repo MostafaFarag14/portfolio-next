@@ -3,7 +3,7 @@ import classes from './main.module.css'
 
 export default function Main() {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className={classes.portfolio}>
       <div className="album py-5">
         <div className="container">
           <h1>PORTFOLIO</h1>
@@ -12,7 +12,7 @@ export default function Main() {
               projectsUrls.map((project, index) => {
                 return <div key={index} className="col-lg-6 mb-4">
                   <div className={`${classes.card} mb-4 shadow h-100`}>
-                    <div className={`${classes.overlay} ${classes.overView} container`} >
+                    <div className={`${classes.overlay}`} >
                       {project.description}
                     </div>
                     <a href={project.url} target="_blank">
@@ -23,7 +23,7 @@ export default function Main() {
                       <h5 className="card-text mb-3">{project.name}</h5>
                       <div className="d-flex justify-content-between align-items-center">
 
-                        <div className="btn-group">
+                        <div className="btn-group flex-wrap">
 
                           {project.url && <a className="btn btn-sm btn-outline-info" href={project.url} target="_blank">View Live</a>}
                           <a className="btn btn-sm btn-outline-info" href={project.code} target="_blank">Source Code</a>
