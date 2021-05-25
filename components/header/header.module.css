@@ -1,0 +1,25 @@
+.btn {
+  background-color: crimson;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}
+
+.header {
+  background-color: #171c21;
+  font-size: 20px;
+}
+
+.navLink {
+  color: rgba(240, 248, 255, 0.432);
+}
+.isCurrent {
+  font-weight: bold;
+}
+
+.isCurrent a,
+.navLink:hover {
+  color: aliceblue;
+  text-decoration: none;
+}

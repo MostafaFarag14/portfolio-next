@@ -1,0 +1,11 @@
+.contact:hover{
+  transform: scale(1.2);
+}
+.contact{
+  transition: 0.2s;
+}
+.contacts{
+  background-color: #1f2932;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
