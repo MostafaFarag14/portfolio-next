@@ -9,19 +9,19 @@ export default function About() {
           <ul style={{ listStyleType: 'circle' }}>
             <li>Creating reusable and scalable React components</li>
             <li>Working with Hooks, Redux and Context API</li>
-            <li>Working with REST APIs</li>
-            <li>Client-side routing using React-router</li>
+            <li>Working with REST APIs and Headless CMS like Strapi</li>
+            <li>NextJs including SSR, SSG, file-based routing and API routes</li>
             <li>Working with styling libraries like Bootstrap , React Semantic UI and Material UI</li>
-            <li>Working with Styled-Components and CSS modules</li>
-            <li>Creating responsive apps using Grids and Flex-Box</li>
-            <li>Using Headless CMS like Strapi</li>
+            <li>Client-side routing using React-router</li>
+            <li>Creating responsive apps using Grids, FlexBox and Media queries</li>
           </ul>
           <h6 style={{ fontSize: '1.1rem' }}>I'm also familiar with :</h6>
           <ul style={{ listStyleType: 'circle' }}>
-            <li>NextJs including SSR, SSG and file-based routing</li>
             <li>NodeJS and Express to create API endpoints</li>
             <li>Firebase including authentication and firestore</li>
             <li>Mobile development using React Native</li>
+            <li>Working with SQL and NoSQL databases</li>
+            <li>Working with Styled-Components and CSS modules</li>
             <li>Using Formik for handling form data, validation and submission</li>
             <li>AWS basics</li>
             <li>GraphQL</li>
