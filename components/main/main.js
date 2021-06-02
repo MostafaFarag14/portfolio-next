@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import { projectsUrls, imgPath } from '../../projectsUrls'
 import classes from './main.module.css'
+
 
 export default function Main() {
   return (
@@ -16,7 +18,7 @@ export default function Main() {
                       {project.description}
                     </div>
                     <a href={project.url} target="_blank">
-                      <img className={`card-img-top ${classes.cardImgTop}`} height="300" src={project.image} data-holder-rendered="true" />
+                      <Image className={`card-img-top ${classes.cardImgTop}`} width={360} height={240} layout='responsive' src={project.image} data-holder-rendered="true" />
                     </a>
                     <hr className="m-0"></hr>
                     <div className="card-body d-flex flex-column justify-content-between">
