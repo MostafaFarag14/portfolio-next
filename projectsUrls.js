@@ -173,24 +173,24 @@ export const projectsUrls = [
     Clarifai API by getting faces positions in the submitted image , then creates list of empty divs with borders to contain these faces
     `
   },
-  {
-    name: "Guest-book",
-    url: "https://guest-book.netlify.app/",
-    code: "https://github.com/MostafaFarag14/Guest-book",
-    image: `${imgPath}/guest-book.png`,
-    tools: [
-      tools.react,
-      tools.nodeJs,
-      tools.mongoDb,
-      tools.bootStrap
-    ],
-    description: `A full stack app with React,
-     NodeJs and MongoDB that enables users 
-     to register and login to write a message , 
-     reply to others messages ,
-     edit or delete their own messages
-    `
-  },
+  // {
+  //   name: "Guest-book",
+  //   url: "https://guest-book.netlify.app/",
+  //   code: "https://github.com/MostafaFarag14/Guest-book",
+  //   image: `${imgPath}/guest-book.png`,
+  //   tools: [
+  //     tools.react,
+  //     tools.nodeJs,
+  //     tools.mongoDb,
+  //     tools.bootStrap
+  //   ],
+  //   description: `A full stack app with React,
+  //    NodeJs and MongoDB that enables users 
+  //    to register and login to write a message , 
+  //    reply to others messages ,
+  //    edit or delete their own messages
+  //   `
+  // },
 
   {
     name: "Jammming",
