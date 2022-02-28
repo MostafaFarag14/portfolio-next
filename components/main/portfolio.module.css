@@ -2,9 +2,15 @@
   background-color: white;
 }
 
+.cardTop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .cardImgTop {
   transition: 0.2s ease;
-  position: relative;
 }
 
 .card:hover .overlay {
@@ -15,19 +21,12 @@
   filter: blur(1.5px) brightness(20%);
 }
 
-.portfolio {
-  background-color: #ece9e6;
-}
 .overlay {
   position: absolute;
-  margin: 0;
-  width: 92%;
+  width: 100%;
   z-index: 100;
   font-size: 17px;
   color: beige;
   visibility: hidden;
   text-align: center;
-  top: 35%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }

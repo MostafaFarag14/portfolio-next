@@ -128,7 +128,7 @@ export const projectsUrls = [
   },
 
   {
-    name: "Movie-App",
+    name: "Movie App",
     url: "https://ree-action.netlify.com/",
     code: "https://github.com/MostafaFarag14/Movie-App.git",
     image: `${imgPath}/reeaction.png`,
@@ -143,7 +143,7 @@ export const projectsUrls = [
     `
   },
   {
-    name: 'Mobile-flashcards',
+    name: 'Mobile Flashcards',
     url: 'https://snack.expo.io/@mostafa14/github.com-mostafafarag14-mobile-flashcards',
     code: 'https://github.com/MostafaFarag14/mobile-flashcards',
     image: `${imgPath}/mobile-flashcards.png`,
@@ -158,7 +158,7 @@ export const projectsUrls = [
      add flashcards to those decks, then take quizzes on those decks`
   },
   {
-    name: "Smart-brain",
+    name: "Smart Brain",
     url: "https://idiot-brain.netlify.app/",
     code: "https://github.com/MostafaFarag14/smart-brain",
     image: `${imgPath}/smart_brain.png`,
@@ -205,7 +205,7 @@ export const projectsUrls = [
      create a custom playlist by adding songs from the search results, then save it to their Spotify account.`
   },
   {
-    name: "ShooterGame",
+    name: "Shooter Game",
     url: "https://mostafafarag14.github.io/shooter-game/",
     code: "https://github.com/MostafaFarag14/shooter-game.git",
     image: `${imgPath}/shooter.png`,
@@ -231,7 +231,7 @@ export const projectsUrls = [
   }
   ,
   {
-    name: "PianoPlayer",
+    name: "Piano Player",
     url: "https://mostafafarag14.github.io/Piano-player/",
     code: "https://github.com/MostafaFarag14/Piano-player.git",
     image: `${imgPath}/piano.png`,
@@ -242,7 +242,7 @@ export const projectsUrls = [
     playable using mouse or keyboard keys by mapping each key or mouse click to certain audio`
   },
   {
-    name: "ChoreDoor",
+    name: "Chore Door",
     url: "https://mostafafarag14.github.io/Chore-Door/",
     code: "https://github.com/MostafaFarag14/Chore-Door.git",
     image: `${imgPath}/choreDoor.png`,

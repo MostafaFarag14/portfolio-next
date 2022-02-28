@@ -1,4 +1,3 @@
-import { Button, Container, Nav, Navbar } from 'react-bootstrap'
 import Scrollspy from 'react-scrollspy'
 import classes from './header.module.css'
 

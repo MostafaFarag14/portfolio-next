@@ -1,9 +1,12 @@
-import classes from './about.module.css'
-export default function About() {
+
+function About() {
   return (
-    <div className={`${classes.about} p-5`} >
+    <div style={{
+      backgroundColor: "#1f2932",
+      color: "aliceblue"
+    }} className="p-md-4 p-1" >
       <main style={{ maxWidth: '50rem' }} id="about" role="main" className="main inner cover h-100 p-3 mx-auto text-center">
-        <h1 className="mb-4">ABOUT</h1>
+        <h1 className="mb-4">About</h1>
         <div style={{ textAlign: 'left', fontSize: '1rem' }} className="lead">
           <h6 style={{ fontSize: '1.1rem' }}>Hi, my name is Mostafa Farag. I'm a React Developer and i have some experience in :</h6>
           <ul style={{ listStyleType: 'circle' }}>
@@ -28,7 +31,7 @@ export default function About() {
           </ul>
           Finally,
           I'm a graduate of Ain shams computer engineering, past 3-months DevOps intern at ITI and
-           i have a certificate of React Developer Nanodegree from udacity.
+          i have a certificate of React Developer Nanodegree from udacity.
         </div>
         <div className="mt-4">
           <a href="https://drive.google.com/file/d/1dEG8OFDMHr0dtxm5CnKTxo-pUaOyGWGn/view" target="_blank" className="btn btn-lg btn-info">View CV</a>
@@ -38,4 +41,4 @@ export default function About() {
   )
 }
 
-
+export default About
