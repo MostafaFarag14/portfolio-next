@@ -3,7 +3,7 @@ import Contact from "../components/contact/contact";
 import Portfolio from "../components/main/Portfolio";
 import Header from "../components/header/header";
 import { useEffect } from "react";
-import About from "../components/about";
+import About from "../components/About";
 
 export default function Home() {
   useEffect(() => {
