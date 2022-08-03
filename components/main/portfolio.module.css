@@ -30,3 +30,34 @@
   visibility: hidden;
   text-align: center;
 }
+
+.allViewed {
+  animation: viewMore 10s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+.someViewed {
+  animation: viewLess 10s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+@keyframes viewMore {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes viewLess {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
