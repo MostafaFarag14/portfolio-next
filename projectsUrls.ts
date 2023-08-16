@@ -103,6 +103,14 @@ const tools = {
     title: "Styled Components",
     imgUrl: "styled-components.svg",
   },
+  nativeBase: {
+    title: "Native Base",
+    imgUrl: "native-base-logo.png",
+  },
+  reactHookForm: {
+    title: "React Hook Form",
+    imgUrl: "react-hook-form-logo-only.svg",
+  },
 };
 
 export const projectsUrls: Project[] = [
@@ -152,23 +160,43 @@ export const projectsUrls: Project[] = [
   },
 
   {
-    name: "Mobile Store",
-    url: "https://phone-storena.netlify.app/",
-    code: "https://github.com/MostafaFarag14/mobile-ecommerce",
-    image: `${imgPath}/mobile-store.png`,
+    name: "Wafar Points Mobile App",
+    url: "https://play.google.com/store/apps/details?id=com.wafarpoints",
+    image: `${imgPath}/wafar_mobile_pic2.png`,
     tools: [
-      tools.react,
-      tools.strapi,
-      tools.semanticUi,
-      tools.reactRouter,
-      tools.payPal,
+      tools.reactNative,
+      tools.reactNavigation,
+      tools.nativeBase,
+      tools.typeScript,
+      tools.reactHookForm,
+      tools.graphql,
+      tools.apollo,
+      tools.cognito,
     ],
-    description: `An e-commerce mobile store app that displays a collection of phones
-    , search for a specific phone by name or filter the phones by brand , price , storage and so on.
-    user can select a specific phone to view more specs. user can add products to cart and place order
-    to make a payment to paypal sandbox. In this app I used strapi CMS to store phones data.
+    description: `Wafar Points mobile app is a react native application in which I have used react navigation, 
+    native base ui library, react hook form, react native image picker & cropper, amazon cognito, apollo client 
+    and some native device features like camera and splash screen.
     `,
   },
+
+  // {
+  //   name: "Mobile Store",
+  //   url: "https://phone-storena.netlify.app/",
+  //   code: "https://github.com/MostafaFarag14/mobile-ecommerce",
+  //   image: `${imgPath}/mobile-store.png`,
+  //   tools: [
+  //     tools.react,
+  //     tools.strapi,
+  //     tools.semanticUi,
+  //     tools.reactRouter,
+  //     tools.payPal,
+  //   ],
+  //   description: `An e-commerce mobile store app that displays a collection of phones
+  //   , search for a specific phone by name or filter the phones by brand , price , storage and so on.
+  //   user can select a specific phone to view more specs. user can add products to cart and place order
+  //   to make a payment to paypal sandbox. In this app I used strapi CMS to store phones data.
+  //   `,
+  // },
 
   {
     name: "Would You Rather",
@@ -197,38 +225,38 @@ export const projectsUrls: Project[] = [
     `,
   },
 
-  {
-    name: "Mobile Flashcards",
-    url: "https://snack.expo.io/@mostafa14/github.com-mostafafarag14-mobile-flashcards",
-    code: "https://github.com/MostafaFarag14/mobile-flashcards",
-    image: `${imgPath}/mobile-flashcards.png`,
-    tools: [
-      tools.reactNative,
-      tools.reactNavigation,
-      tools.redux,
-      tools.asyncStorage,
-    ],
-    description: `A mobile application that allows users to study collections of flashcards. 
-    The app will allow users to create different categories of flashcards called "decks",
-     add flashcards to those decks, then take quizzes on those decks`,
-  },
+  // {
+  //   name: "Mobile Flashcards",
+  //   url: "https://snack.expo.io/@mostafa14/github.com-mostafafarag14-mobile-flashcards",
+  //   code: "https://github.com/MostafaFarag14/mobile-flashcards",
+  //   image: `${imgPath}/mobile-flashcards.png`,
+  //   tools: [
+  //     tools.reactNative,
+  //     tools.reactNavigation,
+  //     tools.redux,
+  //     tools.asyncStorage,
+  //   ],
+  //   description: `A mobile application that allows users to study collections of flashcards.
+  //   The app will allow users to create different categories of flashcards called "decks",
+  //    add flashcards to those decks, then take quizzes on those decks`,
+  // },
 
-  {
-    name: "Smart Brain",
-    url: "https://idiot-brain.netlify.app/",
-    code: "https://github.com/MostafaFarag14/smart-brain",
-    image: `${imgPath}/smart_brain.png`,
-    tools: [
-      tools.react,
-      tools.nodeJs,
-      tools.postgresSql,
-      tools.bootStrap,
-      tools.clarifai,
-    ],
-    description: `A full stack app with React, NodeJs and PostgreSQL that enables users to register and login to detect faces in their photos using
-    Clarifai API by getting faces positions in the submitted image , then creates list of empty divs with borders to contain these faces
-    `,
-  },
+  // {
+  //   name: "Smart Brain",
+  //   url: "https://idiot-brain.netlify.app/",
+  //   code: "https://github.com/MostafaFarag14/smart-brain",
+  //   image: `${imgPath}/smart_brain.png`,
+  //   tools: [
+  //     tools.react,
+  //     tools.nodeJs,
+  //     tools.postgresSql,
+  //     tools.bootStrap,
+  //     tools.clarifai,
+  //   ],
+  //   description: `A full stack app with React, NodeJs and PostgreSQL that enables users to register and login to detect faces in their photos using
+  //   Clarifai API by getting faces positions in the submitted image , then creates list of empty divs with borders to contain these faces
+  //   `,
+  // },
   // {
   //   name: "Guest-book",
   //   url: "https://guest-book.netlify.app/",
@@ -290,7 +318,7 @@ export const projectsUrls: Project[] = [
 
   {
     name: "Chore Door",
-    url: "https://mostafafarag14.github.io/Chore-Door/",
+    url: "https://chore-door-one.vercel.app/",
     code: "https://github.com/MostafaFarag14/Chore-Door.git",
     image: `${imgPath}/choreDoor.png`,
     tools: [tools.javaScript, tools.html, tools.css],

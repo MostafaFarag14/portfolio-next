@@ -16,7 +16,7 @@ function About() {
         <h1 className="mb-4">About</h1>
         <div style={{ textAlign: "left", fontSize: "1rem" }} className="lead">
           <h6 style={{ fontSize: "1.1rem" }}>
-            Hi, my name is Mostafa Farag. I'm a React Developer and I have +1
+            Hi, my name is Mostafa Farag. I'm a React Developer and I have +2
             years of experience in :
           </h6>
           <ul style={{ listStyleType: "circle" }}>
@@ -36,7 +36,10 @@ function About() {
               Amplify
             </li>
             <li>Creating backend GraphQL APIs with Apollo Server</li>
-            <li>Working with Postgres SQL using Sequelize and AWS DynamoDB</li>
+            <li>
+              Working with Postgres SQL using Sequelize or Prisma and AWS
+              DynamoDB
+            </li>
             <li>
               Creating mobile apps using React Native including React Navigation
               and native device features like camera, location and contacts
@@ -54,7 +57,7 @@ function About() {
             <li>Headless CMS like Strapi</li>
           </ul>
           Finally, I'm a graduate of Ain shams computer engineering, currently
-          working at Utudio for +1 years and past 3-months DevOps intern at ITI.
+          working at Utudio for +2 years and past 3-months DevOps intern at ITI.
         </div>
         <div className="mt-4">
           <a

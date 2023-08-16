@@ -2,7 +2,12 @@ import ProjectTools from "./ProjectTools";
 
 const ProjectLink = ({ title, href }) => {
   return (
-    <a className="btn btn-sm btn-outline-info" href={href} target="_blank">
+    <a
+      className="btn btn-sm btn-outline-info"
+      style={{ minWidth: "max-content", whiteSpace: "nowrap" }}
+      href={href}
+      target="_blank"
+    >
       {title}
     </a>
   );

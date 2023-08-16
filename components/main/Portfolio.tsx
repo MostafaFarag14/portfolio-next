@@ -2,8 +2,8 @@ import ProjectsGrid from "./ProjectsGrid";
 import { projectsUrls } from "../../projectsUrls";
 
 function Portfolio() {
-  const realApps = projectsUrls.slice(0, 2);
-  const demoApps = projectsUrls.slice(2);
+  const realApps = projectsUrls.slice(0, 3);
+  const demoApps = projectsUrls.slice(3);
 
   return (
     <div id="portfolio" className="container py-5">

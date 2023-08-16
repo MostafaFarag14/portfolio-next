@@ -8,9 +8,13 @@ import Contact from "../components/contact/Contact";
 
 export default function Home() {
   const router = useRouter();
+
   useEffect(() => {
-    fetch("https://radiant-peak-65277.herokuapp.com/");
-    // fetch("https://library-strapi.herokuapp.com/");
+    try {
+      fetch("https://radiant-peak-65277.herokuapp.com/", { mode: "no-cors" });
+      fetch("https://ree-action.netlify.app/", { mode: "no-cors" });
+      // fetch("https://library-strapi.herokuapp.com/");
+    } catch (error) {}
   }, []);
 
   useEffect(() => {
