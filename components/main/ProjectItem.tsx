@@ -1,8 +1,9 @@
 import classes from "./portfolio.module.css";
 import CardFooter from "./CardFooter";
 import CardHeader from "./CardHeader";
+import { Project } from "../../utils/types";
 
-function ProjectItem({ project }) {
+function ProjectItem({ project }: { project: Project }) {
   return (
     <div
       className={`${classes.card} p-2 mb-4 shadow-sm d-flex flex-column justify-content-between`}

@@ -38,6 +38,20 @@
   animation: viewLess 10s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
+.modalDialog{
+  max-width: 80%;
+}
+
+.modalContent{
+  background-color: #eeeeee;
+}
+
+@media (max-width: 768px) {
+  .modalDialog{
+    max-width: unset
+  }
+}
+
 @keyframes viewMore {
   0% {
     opacity: 0;

@@ -11,4 +11,5 @@ export interface Project {
   image: string;
   tools: Tool[];
   description: string;
+  reviewUrl?: string;
 }

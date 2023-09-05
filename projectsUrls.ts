@@ -115,6 +115,30 @@ const tools = {
 
 export const projectsUrls: Project[] = [
   {
+    name: "Wafar Points",
+    url: "https://wafarpoints.com/",
+    image: `${imgPath}/wafar-2.png`,
+    reviewUrl: "true",
+    tools: [
+      tools.nextJs,
+      tools.grommet,
+      tools.typeScript,
+      tools.styledComponents,
+      tools.graphql,
+      tools.apollo,
+      tools.cognito,
+      tools.dynamoDB,
+    ],
+    description: `WafarPoints is a web app that has a bunch of merchants who have offers on
+    thier products, when a customer buys a certain product in an offer, he gets some points
+    as a reward for that purchase. Customer then can redeem his points in exchange for some money 
+    from any merchant on wafar. This app also has admins who can add merchants and
+    sell points for them while customers can self signup themselves. Every user can view his
+    transactions history 
+    `,
+  },
+
+  {
     name: "Utudio",
     url: "https://utudio.com/",
     image: `${imgPath}/utudio.JPG`,
@@ -133,29 +157,6 @@ export const projectsUrls: Project[] = [
     This app has a multiple ssr pages using nextjs, user authentication using cognito, rtl,
     creating and modifying studios by calling a graphql api using apollo and storing data to a dynamoDB and it was
     styled using grommet styling library
-    `,
-  },
-
-  {
-    name: "Wafar Points",
-    url: "https://wafarpoints.com/",
-    image: `${imgPath}/wafar-2.png`,
-    tools: [
-      tools.nextJs,
-      tools.grommet,
-      tools.typeScript,
-      tools.styledComponents,
-      tools.graphql,
-      tools.apollo,
-      tools.cognito,
-      tools.dynamoDB,
-    ],
-    description: `WafarPoints is a web app that has a bunch of merchants who have offers on
-    thier products, when a customer buys a certain product in an offer, he gets some points
-    as a reward for that purchase. Customer then can redeem his points in exchange for some money 
-    from any merchant on wafar. This app also has admins who can add merchants and
-    sell points for them while customers can self signup themselves. Every user can view his
-    transactions history 
     `,
   },
 
